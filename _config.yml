@@ -4,5 +4,5 @@ markdown: kramdown
 url: http://robfallows.github.io
 title: Tunguska
 tagline: Things Meteor
-description: An infrequent set of ramblings about [Meteor](https://www.meteor.com/). With luck, some of them may be useful to others.
+description: An infrequent set of ramblings about the Meteor platform. With luck, some of them may be useful to others.
 paginate: 1
