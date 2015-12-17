@@ -11,7 +11,7 @@ Sadly, I blew the two paragraph target, but I hope this all proves useful to som
 
 OAuth is a way of providing access to third party application resources (such as Facebook) from a user written application (such as a Meteor app). For example, we can use Facebook's OAuth service to enable our Meteor app to gain access to a user's email address.
 
-OAuth is an *authorization* service, rather than *authentication* service. Nonetheless, it's common practice to use OAuth as a means of authenticating users to your application.
+OAuth is an *authorization* service, rather than an *authentication* service. Nonetheless, it's common practice to use OAuth as a means of authenticating users to your application.
 
 There are advantages to this:
 
