@@ -1,6 +1,6 @@
 ---
 published: true
-title: Writing an OAuth 2 Handler
+title: Writing a Meteor OAuth 2 Handler
 layout: post
 ---
 So, I was encouraged to write some content (a couple of paragraphs) about putting together an OAuth handler for Meteor. Now, Meteor provides a number of ready-to-use handlers for some of the "big names", but there's no real help if you want to use your own service, or some other 3rd party provider.
