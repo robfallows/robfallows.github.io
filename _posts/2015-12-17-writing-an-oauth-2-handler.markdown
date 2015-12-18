@@ -73,13 +73,11 @@ Finally, I wrote my packages using ES2015 syntax (where I have remembered to) - 
 
 Within the `imgur` package we set up five files for the handler, along with files for any unit tests we may write. I have excluded tests in this list of files (and in the `package.js` file):
 
-```
-imgur_configure.html
-imgur_configure.js
-imgur_client.js
-imgur_server.js
-package.js
-```
+    imgur_configure.html
+    imgur_configure.js
+    imgur_client.js
+    imgur_server.js
+    package.js
 
 #### imgur_configure.html
 
@@ -123,11 +121,9 @@ This file needs to have all the dependencies added for this package. It's boiler
 
 Within the `accounts-imgur` package we set up three files for the package, along with files for any unit tests we may write. I have excluded tests in this list of files (and in the `package.js` file):
 
-```
-accounts-imgur.js
-accounts-imgur_login_button.css
-package.js
-```
+    accounts-imgur.js
+    accounts-imgur_login_button.css
+    package.js
 
 ### accounts-imgur.js
 
