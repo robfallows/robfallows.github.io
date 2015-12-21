@@ -3,9 +3,9 @@ published: true
 title: Writing a Meteor OAuth 2 Handler
 layout: post
 ---
-So, I was encouraged to write some content (a couple of paragraphs) about putting together an OAuth handler for Meteor. Now, Meteor provides a number of ready-to-use handlers for some of the "big names", but there's no real help if you want to use your own service, or some other 3rd party provider.
+Meteor provides a number of ready-to-use OAuth handlers for some of the "big names", but there's no real help if you want to use your own service, or some other 3rd party provider.
 
-Sadly, I blew the two paragraph target, but I hope this all proves useful to someone!
+I was encouraged to write a couple of paragraphs about putting together some guidance to help people roll their own handlers. Sadly, I blew the two paragraph target, but I hope the following proves useful to someone!
 
 ## What is OAuth?
 
@@ -69,6 +69,8 @@ Note that rather than go through the code step-by-step in this article, I have p
 
 Finally, I wrote my packages using ES2015 syntax (where I have remembered to) - I ensured the `ecmascript` package was specified in the `package.js` files.
 
+You can find the `imgur` package [here](https://github.com/robfallows/tunguska-imgur) and the `accounts-imgur` package [here](https://github.com/robfallows/tunguska-accounts-imgur).
+
 ### imgur package
 
 Within the `imgur` package we set up five files for the handler, along with files for any unit tests we may write. I have excluded tests in this list of files (and in the `package.js` file):
@@ -125,11 +127,11 @@ Within the `accounts-imgur` package we set up three files for the package, along
     accounts-imgur_login_button.css
     package.js
 
-### accounts-imgur.js
+#### accounts-imgur.js
 
 Completely boilerplate - just ensure that `Imgur` or `imgur` is used in the right places. Mine's [here](https://github.com/robfallows/tunguska-accounts-imgur/blob/master/accounts-imgur.js).
 
-### accounts-imgur_login_button.css
+#### accounts-imgur_login_button.css
 
 This is boilerplate in structure - just ensure that the class name has `imgur` in it. This file provides the logo which appears on the login button. It's a 16x16 URL-encoded `png`. Mine's [here](https://github.com/robfallows/tunguska-accounts-imgur/blob/master/accounts-imgur_login_button.css).
 
@@ -139,6 +141,6 @@ Boilerplate. Mine's [here](https://github.com/robfallows/tunguska-accounts-imgur
 
 ## What next?
 
-- I've put both packages on atmosphere, if you want to try them. However, they're sufficiently reusable on any OAuth 2 service, so I encourage you to clone them and add to the ecosystem with your favorite service!
+- I've put both packages on atmosphere, if you want to try them. However, with a little effort they're sufficiently reusable on any OAuth 2 service, so I encourage you to fork and add to the ecosystem with your favorite service!
 - Add tests!
 - PR's welcome (especially tests!)
