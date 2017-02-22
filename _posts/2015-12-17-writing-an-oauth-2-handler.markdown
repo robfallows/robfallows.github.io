@@ -137,7 +137,7 @@ This is boilerplate in structure - just ensure that the class name has `imgur` i
 
 #### package.js
 
-Boilerplate. Mine's [here](https://github.com/robfallows/tunguska-accounts-imgur/blob/master/package.js). Note that this package depends on `tunguska:imgur`, which means you only need to explicitly `meteor add tunguska-accounts-imgur` to get Imgur authorization in your app.
+Boilerplate. Mine's [here](https://github.com/robfallows/tunguska-accounts-imgur/blob/master/package.js). Note that this package depends on `tunguska:imgur`, which means you only need to explicitly `meteor add tunguska:accounts-imgur` to get Imgur authorization in your app.
 
 ## What next?
 
